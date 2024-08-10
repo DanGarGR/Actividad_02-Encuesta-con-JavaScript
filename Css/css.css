@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e2e;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: linear-gradient(135deg, #ff6b6b, #f06595, #cc5de8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 80%;
+    max-width: 350px;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: #ffca3a;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 0 25px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #ffea00;
+}
+
+input[type="radio"] {
+    margin: 12px;
+    accent-color: #ff6b6b;
+}
+
+button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4757;
+}
+
+#results {
+    margin-top: 25px;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.3em;
+    }
+    
+    p {
+        font-size: 1em;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.1em;
+        padding: 15px;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    button {
+        font-size: 0.9em;
+        padding: 8px 15px;
+    }
+}
